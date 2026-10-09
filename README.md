@@ -2,26 +2,16 @@
 
 Next.js (App Router) · React 19 · TypeScript · Tailwind CSS · Framer Motion · Lucide + React Icons
 
-## Chạy local
+## Run locally
 
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build    # kiểm tra build production
+npm run build    # production build check
 ```
 
-## Cần chỉnh trước khi deploy
+## Before using the project
 
-
-1. Đặt file CV vào `public/Duong-Anh-Kiet-CV.pdf` (nút Resume sẽ tải file này).
-2. `public/avatar.png` là ảnh đại diện — thay bằng ảnh khác nếu muốn.
-
-- Văn bản hiển thị (tiếng Anh + tiếng Việt, gồm tiêu đề hero, giới thiệu, kinh nghiệm, dự án): `lib/content.ts`
-- Dữ liệu không phụ thuộc ngôn ngữ (công ty, tech stack, số liệu, email/điện thoại): `lib/data.ts`
-- Icon công nghệ: `lib/tech.tsx`
-
-Nút **EN | VI** trên thanh điều hướng đổi ngôn ngữ; lựa chọn được lưu trong trình duyệt.
-
-## Deploy lên Vercel
-
-Đẩy repo lên GitHub → Vercel → **Add New Project** → chọn repo → Deploy (không cần cấu hình thêm).
+- Content text in both English and Vietnamese, including hero title, introduction, experience, and projects: `lib/content.ts`
+- Language-independent data such as company names, tech stack, numbers, email, and phone: `lib/data.ts`
+- Technology icons: `lib/tech.tsx`
