@@ -11,8 +11,8 @@ const en: Content = {
     contact: "Contact",
   },
   common: {
-    resume: "Resume",
-    downloadResume: "Download resume",
+    resume: "CV",
+    downloadResume: "Download CV",
     toggleTheme: "Toggle theme",
     toggleMenu: "Toggle menu",
     language: "Language",
@@ -64,7 +64,7 @@ const en: Content = {
     items: {
       novaland: {
         role: "Frontend Developer",
-        period: "Apr 2026 — Jun 2026",
+        period: "Apr 2026 — Sep 2026",
         location: "Ho Chi Minh City",
         highlights: [
           "Built an internal KPI management CMS on Next.js 15 and React 19.",
@@ -84,7 +84,7 @@ const en: Content = {
       },
       toncash: {
         role: "Frontend Developer",
-        period: "Mar 2025 — Jun 2025",
+        period: "Jan 2025 — Jun 2025",
         location: "Ho Chi Minh City",
         highlights: [
           "Built a Telegram Mini App with React.js and TypeScript, integrating Web3 and the TON blockchain.",
@@ -93,7 +93,7 @@ const en: Content = {
       },
       nextway: {
         role: "Frontend Developer & Intern",
-        period: "Nov 2024 — Feb 2025 · Mar 2024 — Sep 2024",
+        period: "Dec 2023 — May 2024 · Jun 2024 — Dec 2024",
         location: "Ho Chi Minh City",
         highlights: [
           "Developed a Healthcare Zalo Mini App with Redux and Urbox rewards integration.",
@@ -247,7 +247,7 @@ const vi: Content = {
     items: {
       novaland: {
         role: "Lập trình viên Frontend",
-        period: "Th4 2026 — Th6 2026",
+        period: "Th4 2026 — Th9 2026",
         location: "TP. Hồ Chí Minh",
         highlights: [
           "Xây dựng hệ thống CMS nội bộ quản lý KPI trên Next.js 15 và React 19.",
@@ -267,7 +267,7 @@ const vi: Content = {
       },
       toncash: {
         role: "Lập trình viên Frontend",
-        period: "Th3 2025 — Th6 2025",
+        period: "Th1 2025 — Th6 2025",
         location: "TP. Hồ Chí Minh",
         highlights: [
           "Xây dựng Telegram Mini App bằng React.js và TypeScript, tích hợp Web3 và blockchain TON.",
@@ -276,7 +276,7 @@ const vi: Content = {
       },
       nextway: {
         role: "Lập trình viên Frontend & Thực tập sinh",
-        period: "Th11 2024 — Th2 2025 · Th3 2024 — Th9 2024",
+        period: "Th12 2023 — Th5 2024 · Th6 2024 — Th12 2024",
         location: "TP. Hồ Chí Minh",
         highlights: [
           "Phát triển Zalo Mini App lĩnh vực y tế với Redux và tích hợp phần thưởng Urbox.",

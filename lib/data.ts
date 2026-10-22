@@ -16,7 +16,6 @@ export const profile = {
   phone: "+84 855 395 492",
   github: "https://github.com/kietduong23",
   linkedin: "https://www.linkedin.com/in/anh-kiet-duong-7572a2301",
-  // Đặt file CV vào /public/Duong-Anh-Kiet-CV.pdf
   resume: "/Duong-Anh-Kiet-CV.pdf",
 };
 
@@ -105,7 +104,7 @@ export const projects: ProjectBase[] = [
 export const skillGroups: SkillGroupBase[] = [
   { id: "core", skills: ["React", "TypeScript", "Next.js", "JavaScript", "HTML5", "CSS3"] },
   { id: "ui", skills: ["Tailwind CSS", "Ant Design", "Bootstrap"] },
-  { id: "state", skills: ["Redux", "RTK Query", "Zustand", "Zod", "Yup"] },
-  { id: "backend", skills: ["REST API", "PostgreSQL", "MongoDB", "Docker", "AWS"] },
+  { id: "state", skills: ["Redux", "RTK Query", "React Query", "Zustand", "Zod", "Yup"] },
+  { id: "backend", skills: ["REST API", "PostgreSQL", "MongoDB", "Docker", "AWS", "Vercel", "Firebase"] },
   { id: "quality", skills: ["Vitest", "Biome", "Husky", "SonarQube", "Git", "GitHub", "CI/CD"] },
 ];
